@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwan Personal Website</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1
+    /dist/css/bootstrap.min.css">
+</head>
+
+<body class="just">
+    <div class="container-navbar">
+        <nav class="navbar">
+            <a class="angka" href="website.html">
+                <li class="li-navbar">Home</li>
+            </a>
+            <a class="angka" href="https://docs.google.com/document/d/1KFuVecO_8Dq8EATGAB_d-nJWycM62wEs/edit?usp=sharing&ouid=116729702598941413531&rtpof=true&sd=true">
+                <li class="li-navbar">View CV</li>
+            </a>
+            <a class="angka" href="https://alwandzaki.blogspot.com/">
+                <li class="li-navbar">Blog</li>
+            </a>
+            <a class="angka" href="website_aboutme.html">
+                <li class="li-navbar">About Me</li>
+            </a>
+        </nav>
+        <hr color="black">
+    </div>
+
+    <div class="teks_tengah">
+        <h2>PROFILE</h2>
+        <a href="https://www.instagram.com/alwandzki">
+            <img src="alwan.jpg" width="242" height="242" style="border-radius: 100%;">
+        </a>
+    </div>
+    <div>
+        <h3 class="teks_tengah2">Alwan Dzaki Syaeffudin</h3>
+        <h3 class="teks_tengah2">Front End Developer</h3>
+        <h3 class="teks_tengah2">College Student at Gunadarma University</h3>
+    </div>
+    <br>
+    </div>
+    <h3 class="teks_tengah3" style="color: black;"><q><strong><i>Effort Will Not Betray the Results</q></strong></i></h3>
+    <!-- JS FILE -->
+    <body id="body">
+        <button class="switch" onclick="ubahWarna();">Switch</button>
+    </body>
+    <script>
+        var colors = ["darkgrey", "antiquewhite", "white"];
+        var colorIndex = 0;
+        function ubahWarna() {
+            var col = document.getElementById("body");
+            if (colorIndex >= colors.length) {
+                colorIndex = 0;
+            }
+            col.style.backgroundColor = colors[colorIndex];
+            colorIndex++;
+        }
+    </script>
+    
+    <footer class="container-footer">
+        <hr color="black">
+        <p>Copyright &copy; Alwan Dzaki Syaeffudin</p>
+    </footer>
+</body>
+</html>

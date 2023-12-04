@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ME | Alwan</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+
+<body>
+    <div class="container-navbar">
+        <nav class="navbar">
+            <a class="angka" href="website.html">
+                <li class="li-navbar"> Home</li>
+            </a>
+            <a class="angka" href="CV_Alwan_Dzaki_Syaeffudin.pdf">
+                <li class="li-navbar">View CV</li>
+            </a>
+            <a class="angka" href="https://alwandzaki.blogspot.com/">
+                <li class="li-navbar">Blog</li>
+            </a>
+            <a class="angka" href="website_aboutme.html">
+                <li class="li-navbar">About Me</li>
+            </a>
+        </nav>
+        <hr color="black">
+    </div>
+    <div class="shadow">
+        <h3 class="teks_rata" style="color: black;"><strong> About Me</h3></strong>
+        <p class="teks_rata">Saya Alwan Dzaki Syaeffudin, Mahasiswa sarjana terampil jurusan Informatika dengan keahlian
+            dalam pengembangan web. Saya berkuliah di Universitas Gunadarma, saat ini sedang menempuh semester 5. Saya 
+            berkuliah di jurusan IT karena saya ingin mengetahui proses pembuatan sebuah aplikasi mobile atau website.
+            Saya memiliki ketertarikan untuk mendalami bidang yang berkaitan dengan sebuah
+            aplikasi.
+        </p>
+        <p class="teks_rata">Saya menguasai Microsoft Office (Word, Excel, Powerpoint), Bahasa Pemrograman (Javascript,
+            PHP), Pengembangan Web (HTML, CSS, Javascript), Figma, Canva, dan Blender. Saya memiliki pemecahan masalah yang baik, Adaptasi
+            lingkungan yang baik, Perhatian terhadap detail, Mampu bekerja dalam tim dan berkolaborasi dalam tim.
+        </p>
+    </div>
+    <div>
+        <ol type="1">
+            <a class="angka"
+                href="https://www.figma.com/file/c5hy2LootsNm7zJejPhKYR/Wireframe?type=design&mode=design&t=uPTFMhCXk4zEOB7d-1">
+                <li>1. Re-branding Website FundEx</li>
+            </a><br>
+            <a class="angka"
+                href="https://www.figma.com/file/rS9imSzsqQatN8AGZZude2/MAIN-PROJECT?type=design&mode=design&t=uPTFMhCXk4zEOB7d-1">
+                <li>2. Membuat Mini Project Aplikasi Penjualan Rumah Online</li>
+            </a><br>
+            <a class="angka"
+                href="https://github.com/alwndzk/MANGA-WEBSITE.git">
+                <li>3. Manganews: Aplikasi Website</li>
+            </a><br>
+            <a class="angka"
+                href="https://github.com/alwndzk/APPS.git">
+                <li>4. Bookshelf Apps: Aplikasi Website</li>
+            </a><br>
+        </ol>
+    </div>
+
+    <!-- JS FILE -->
+
+    <body id="body">
+        <button class="switch" onclick="ubahWarna();">Switch</button>
+    </body>
+    <script>
+        var colors = ["darkgrey", "antiquewhite", "white"];
+        var colorIndex = 0;
+        function ubahWarna() {
+            var col = document.getElementById("body");
+            if (colorIndex >= colors.length) {
+                colorIndex = 0;
+            }
+            col.style.backgroundColor = colors[colorIndex];
+            colorIndex++;
+        }
+    </script>
+
+</body>
+
+</html>

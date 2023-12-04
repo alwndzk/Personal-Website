@@ -1,0 +1,159 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+/*h3{
+    color: #BE2A03;
+}
+p{
+    color: #333333;
+}*/
+
+.container-navbar{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+}
+.a-navbar{
+    color: white;
+    font-weight: 800px;
+}
+.li-navbar{
+    list-style-type: none;
+    padding: 15px;
+    color: dimgray;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.li-navbar:hover{
+    background-color: rgb(255, 233, 87);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 3px;
+}
+.absolutetypesmall{
+    font-size: 25px
+}
+.absolutetypemedium{
+    font-size: 1in;
+}
+.absolutetypeultra{
+    font-size: 2.5cm;
+}
+.relativetypesmall{
+    font-size: 2em;
+}
+.relativetypemedium{
+    font-size: 10em;
+}
+.relativetypeultra{
+    font-size: 20em;
+}
+.menu{
+    background-color: rgb(252, 243, 232);
+}
+li{
+    color: black;
+    display: inline;
+}
+
+.bgtablechange:hover{
+    background-color: #f4d7d7;
+}
+table,td{
+    border: 1px solid;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.divp{
+    background-color: aqua;
+    padding: 15px;
+    border: 1px solid;
+    border-color: red;
+    margin: 30px;
+}
+.divtable{
+    background-color: antiquewhite;
+    padding: 25px;
+    border: 1px solid;
+    border-color: black;
+    margin: 20px;
+}
+.teks_tengah{
+    text-align: center;
+    font-size: 22px;
+    font-family: monospace;
+}
+.teks_tengah2{
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.teks_tengah3{
+    text-align: center;
+    font-size: 23px;
+    font-family: monospace;
+    margin: 25px;
+}
+.teks_rata{
+    text-align: justify;
+    font-size: 22px;
+}
+
+section {
+    text-align: center;
+}
+form input{
+    margin: 2rem auto;
+    width: 50%;
+    }
+form label{
+    margin: 2rem auto;
+    width: 50%;
+    }
+form textarea{
+    display: block;
+    font-size: 2.4 rem;
+    }
+.angka {
+    color: dimgrey;
+    text-decoration: none;
+    font-size: 22px;
+    list-style-type: none;
+    padding: 0px;
+}
+.angka:hover {
+    background-color:rgb(255, 233, 87);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 5px;
+}
+.kata{
+    font: italic;
+    font: bold;
+}
+.switch{
+    background-color: beige;
+    color: black;
+    padding: 5px;
+    font-size: 12px;  
+    border-radius: 5px;
+    cursor: pointer;
+}
+.switch:hover{
+    background-color: rgb(255, 233, 87);
+    transition: .3s;
+    transition-delay: .1s;
+}
+.container-footer{
+    font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
+    margin-top: 15px;
+}
